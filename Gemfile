@@ -60,6 +60,7 @@ end
 group :production do
   gem 'pg'
   gem 'redis', '~> 4.0'
+  # to deploy in heroku
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
